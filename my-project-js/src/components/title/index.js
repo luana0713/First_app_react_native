@@ -1,8 +1,13 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, Button } from "react-native";
 
 export default function Title(){
     return (
-        <View></View>
+        <View>
+             <Text>Army app...</Text>
+             
+            
+        </View>
     )
 }
+//<Button title="ho" onPress={() => alert('pr!')} />

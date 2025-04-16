@@ -1,20 +1,28 @@
 import { StatusBar } from 'react-native';
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
+import Title from './src/components/title';
+import Main from './src/components/main';
 
 export default function App() {
+  
   return (
     <View style={styles.container}>
-      <Text>Army app</Text>
-      <StatusBar style="auto" />
-      <Text>Army app</Text>
+      <Title/>
+      <Button title="hi" onPress={() => alert('pr!')} />
+      <Main/>
+      <Button title="hi" onPress={() => alert('pr!')} />
     </View>
     //<View>
      //   <Button title="hi" onPress={() => alert('pr!')} />
      // </View>
   //  </View>
- 
-    
+
+
+ // isso fica no View la em cima 
+  //<Text>Army app</Text>
+ // <StatusBar style="auto" />
+// isso fica no View la em cima
 
   );
 }
